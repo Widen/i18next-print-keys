@@ -16,14 +16,14 @@ i18next.use(printKeys).init({
   },
 })
 
-const t = i18next.t
-
 it('should print the key for basic strings', () => {
-  expect(t('basic')).toBe('basic')
+  expect(i18next.t('basic')).toBe('basic')
 })
 
 it('should print interpolated values after the key', () => {
-  expect(t('count', { count: 12 })).toBe('count {"count":12}')
-  expect(t('identity', { context: 'male' })).toBe('identity {"context":"male"}')
-  expect(t('count', { count: 12 })).toBe('count {"count":12}')
+  expect(i18next.t('count', { count: 12 })).toBe('count {"count":12}')
+  expect(i18next.t('identity', { context: 'male' })).toBe(
+    'identity {"context":"male"}'
+  )
+  expect(i18next.t('count', { count: 12 })).toBe('count {"count":12}')
 })
