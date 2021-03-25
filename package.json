@@ -1,13 +1,13 @@
 {
-  "name": "@widen/npm-package-template",
+  "name": "i18next-print-keys",
   "version": "0.0.0-semantically-released",
-  "description": "{{description}}",
+  "description": "i18next preprocessor to print translation keys including interpolated values.",
   "author": "Widen",
   "license": "ISC",
-  "repository": "github:Widen/npm-package-template",
-  "homepage": "https://github.com/Widen/npm-package-template#readme",
+  "repository": "github:Widen/i18next-print-keys",
+  "homepage": "https://github.com/Widen/i18next-print-keys#readme",
   "bugs": {
-    "url": "https://github.com/Widen/npm-package-template/issues"
+    "url": "https://github.com/Widen/i18next-print-keys/issues"
   },
   "keywords": [
     "i18next",
