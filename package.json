@@ -1,0 +1,42 @@
+{
+  "name": "@widen/npm-package-template",
+  "version": "0.0.0-semantically-released",
+  "description": "{{description}}",
+  "author": "Widen",
+  "license": "ISC",
+  "repository": "github:Widen/npm-package-template",
+  "homepage": "https://github.com/Widen/npm-package-template#readme",
+  "bugs": {
+    "url": "https://github.com/Widen/npm-package-template/issues"
+  },
+  "keywords": [
+    "i18next",
+    "i18next-plugin",
+    "i18next-preprocessor"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "release": "semantic-release"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "semantic-release": "^17.3.0",
+    "typescript": "^4.2.3"
+  }
+}
