@@ -14,8 +14,7 @@
     "i18next-plugin",
     "i18next-preprocessor"
   ],
-  "type": "module",
-  "main": "lib/index.js",
+  "exports": "./lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "src",
