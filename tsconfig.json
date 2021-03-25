@@ -3,15 +3,14 @@
     "module": "ESNext",
     "target": "ES6",
     "removeComments": true,
-    // Strictness
+    "moduleResolution": "node",
+    "esModuleInterop": true,
     "strict": true,
     "skipLibCheck": true,
-    // Export source maps and declaration maps
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
-    // Input and output
-    "rootDir": "src",
     "outDir": "lib"
-  }
+  },
+  "include": ["src"]
 }
