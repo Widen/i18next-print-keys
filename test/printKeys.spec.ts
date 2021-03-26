@@ -27,3 +27,10 @@ it('should print interpolated values after the key', () => {
   )
   expect(i18next.t('count', { count: 12 })).toBe('count {"count":12}')
 })
+
+it('should not print the internal options', () => {
+  expect(i18next.t('key', { defaultValue: 'hi' })).toBe('key')
+  expect(i18next.t('key', { lng: 'en-US' })).toBe('key')
+  expect(i18next.t('key', { lngs: ['en', 'es'] })).toBe('key')
+  expect(i18next.t('key', { interpolation: {} })).toBe('key')
+})

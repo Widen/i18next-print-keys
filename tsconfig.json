@@ -2,6 +2,7 @@
   "compilerOptions": {
     "module": "CommonJS",
     "target": "ES6",
+    "lib": ["ESNext"],
     "moduleResolution": "node",
     "esModuleInterop": true,
     "removeComments": true,
