@@ -34,3 +34,11 @@ it('should not print the internal options', () => {
   expect(i18next.t('key', { lngs: ['en', 'es'] })).toBe('key')
   expect(i18next.t('key', { interpolation: {} })).toBe('key')
 })
+
+it('should not print undefined options', () => {
+  expect(i18next.t('basic', { count: undefined })).toBe('basic')
+  expect(i18next.t('basic', { context: undefined })).toBe('basic')
+  expect(i18next.t('basic', { count: 1, context: undefined })).toBe(
+    'basic {"count":1}'
+  )
+})
