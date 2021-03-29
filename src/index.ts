@@ -6,11 +6,11 @@ export default {
   name: 'printKeys',
   type: 'postProcessor',
   process(_, key, options) {
-    // Filter out internal, undefined, and null options when printing keys. The
+    // Filter out internal and undefined options when printing keys. The
     // resulting array is passed to JSON.stringify which instructs it which
     // keys should be printed.
     const optionKeys = Object.keys(options)
-      .filter((key) => options[key] != null)
+      .filter((key) => options[key] !== undefined)
       .filter((key) => !ignore.includes(key))
 
     return optionKeys.length
