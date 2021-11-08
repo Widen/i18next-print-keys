@@ -1,6 +1,6 @@
 {
   "name": "i18next-print-keys",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "i18next preprocessor to print translation keys including interpolated values.",
   "author": "Widen",
   "license": "ISC",
