@@ -4,6 +4,7 @@
   "description": "i18next preprocessor to print translation keys including interpolated values.",
   "author": "Widen",
   "license": "ISC",
+  "packageManager": "yarn@3.1.0",
   "repository": "github:Widen/i18next-print-keys",
   "homepage": "https://github.com/Widen/i18next-print-keys#readme",
   "bugs": {
