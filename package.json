@@ -24,7 +24,8 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "release": "./scripts/release.sh"
   },
   "peerDependencies": {
     "i18next": ">=20"
