@@ -37,11 +37,3 @@ i18next.use(printKeys).init({
 i18next.t('key') // key
 i18next.t('key', { count: 1 }) // key {"count":1}
 ```
-
-## Releasing
-
-This extension uses
-[semantic-release](https://github.com/semantic-release/semantic-release) to
-automatically increment the release based on the commit message. Checkout
-[their docs](https://github.com/semantic-release/semantic-release#how-does-it-work)
-for more details.
