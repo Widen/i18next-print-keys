@@ -25,7 +25,8 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "release": "yarn tsc && yarn changeset publish"
   },
   "peerDependencies": {
     "i18next": ">=20"
