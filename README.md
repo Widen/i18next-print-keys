@@ -4,7 +4,8 @@
 [![npm](https://img.shields.io/npm/v/i18next-print-keys)](https://www.npmjs.com/package/i18next-print-keys)
 [![changesets](https://img.shields.io/badge/maintained%20with-changesets-blue)](https://github.com/atlassian/changesets)
 
-i18next preprocessor to print translation keys including interpolated values.
+[i18next](https://www.i18next.com) preprocessor to print translation keys
+including interpolated values.
 
 ## Installation
 

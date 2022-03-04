@@ -4,7 +4,7 @@
   "description": "i18next preprocessor to print translation keys including interpolated values.",
   "author": "Widen",
   "license": "ISC",
-  "packageManager": "yarn@3.1.0",
+  "packageManager": "yarn@3.2.0",
   "repository": "github:Widen/i18next-print-keys",
   "homepage": "https://github.com/Widen/i18next-print-keys#readme",
   "bugs": {
@@ -15,6 +15,7 @@
     "i18next-plugin",
     "i18next-preprocessor"
   ],
+  "type": "module",
   "exports": "./lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -24,8 +25,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
-    "format": "prettier --write .",
-    "release": "./scripts/release.sh"
+    "format": "prettier --write ."
   },
   "peerDependencies": {
     "i18next": ">=20"
