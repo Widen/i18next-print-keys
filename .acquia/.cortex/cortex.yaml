@@ -1,7 +1,9 @@
 openapi: 3.0.1
 info:
   title: i18next-print-keys
-  description: i18next preprocessor to print translation keys including interpolated values.
+  description:
+    i18next preprocessor to print translation keys including interpolated
+    values.
   x-cortex-tag: Widen/i18next-print-keys
   x-cortex-git:
     github:
