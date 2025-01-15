@@ -1,0 +1,27 @@
+openapi: 3.0.1
+info:
+  title: i18next-print-keys
+  description:
+    i18next preprocessor to print translation keys including interpolated
+    values.
+  x-cortex-tag: Widen/i18next-print-keys
+  x-cortex-git:
+    github:
+      repository: Widen/i18next-print-keys
+  x-cortex-owners:
+    - type: GROUP
+      provider: GITHUB
+      name: Widen/frontend-services
+    - type: SLACK
+      channel: content-front-end
+  x-cortex-ci-cd:
+    buildkite:
+      pipelines:
+        - slug: i18next-print-keys
+  x-cortex-groups:
+    - content-cloud
+    - is-dependency
+  x-cortex-link:
+    - url: https://github.com/Widen/i18next-print-keys/blob/master/README.md
+      type: Documentation
+      name: Project Documentation
